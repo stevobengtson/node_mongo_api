@@ -1,0 +1,19 @@
+POST http://localhost:3000/posts HTTP/1.1
+content-type: application/json
+
+{
+	"title": "My Third post",
+	"description": "This is a description of my third post"
+}
+
+###
+
+GET http://localhost:3000/posts HTTP/1.1
+
+###
+
+GET http://localhost:3000/posts/5ce23b4ff597b0c5be30d9e1 HTTP/1.1
+
+###
+
+DELETE http://localhost:3000/posts/5ce2324f989514c36eb0546c HTTP/1.1
